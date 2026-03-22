@@ -178,3 +178,29 @@ The user returns to the same search results page without losing context.
 
 Content remains readable and key actions are visible.
 
+
+
+\---
+
+
+
+\## TC-09 – Validate back navigation after application flow
+
+\*\*Precondition:\*\* User is logged in and has opened a job offer  
+
+\*\*Steps:\*\*
+
+1\. Open a job listing
+
+2\. Start the application flow or enter the job details page
+
+3\. Click the browser back button
+
+4\. Observe the search results page
+
+
+
+\*\*Expected Result:\*\*  
+
+The user returns to the search results page in a normal and fully interactive state without visual overlays or blocked elements.
+
